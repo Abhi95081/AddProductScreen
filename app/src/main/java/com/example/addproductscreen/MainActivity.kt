@@ -71,7 +71,7 @@ fun AddProductScreen() {
             TopAppBar(
                 title = {
                     Box(
-                        Modifier.fillMaxWidth().padding(end = 48.dp),
+                        Modifier.fillMaxWidth().padding(end = 45.dp),
                         contentAlignment = Alignment.Center
 
                     ) {
@@ -85,7 +85,7 @@ fun AddProductScreen() {
                 },
                 actions = {
                     IconButton(onClick = { /* save logic */ }) {
-                        Icon(Icons.Default.Check, contentDescription = null, tint = Color(0xFF4CAF50))
+                        Icon(Icons.Default.Check, contentDescription = null, tint = Color.Green)
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.White)
